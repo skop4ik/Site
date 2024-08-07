@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аренда Серверов</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Аренда Серверов</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#pricing">Цены</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Добро пожаловать в наш сервис по аренде серверов</h2>
+        <p>Предоставляем надежные серверы для любых нужд.</p>
+    </section>
+
+    <section id="about">
+        <h2>О нас</h2>
+        <p>Мы предлагаем качественные серверные решения для вашего бизнеса.</p>
+    </section>
+
+    <section id="pricing">
+        <h2>Цены</h2>
+        <table>
+            <tr>
+                <th>Тариф</th>
+                <th>Цена в месяц</th>
+                <th>Описание</th>
+            </tr>
+            <tr>
+                <td>Базовый</td>
+                <td>5000 руб</td>
+                <td>2 ядра, 4 ГБ ОЗУ, 100 ГБ SSD</td>
+            </tr>
+            <tr>
+                <td>Стандарт</td>
+                <td>8000 руб</td>
+                <td>4 ядра, 8 ГБ ОЗУ, 250 ГБ SSD</td>
+            </tr>
+            <tr>
+                <td>Премиум</td>
+                <td>12000 руб</td>
+                <td>8 ядер, 16 ГБ ОЗУ, 500 ГБ SSD</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Контакты</h2>
+        <form id="contactForm">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Аренда Серверов</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
